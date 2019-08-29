@@ -9,14 +9,17 @@ html {
 .icon {color: #BCD2DA;}
 
 .card {
-    /* display, flex-direction */
+     display:flex;
+      flex-direction:column;
     border: 1px solid #CAD0D2;
     border-radius: 4px;
     overflow: hidden;
 }
 
 .card__description {
-    /* display, flex-direction, align-items */
+    display:flex;
+     flex-direction:column;
+      align-items :center;
     padding: 15px 0;
 }
 
@@ -40,16 +43,17 @@ html {
 }
 
 .cardGroup {
-    /* display */
+    display:flex;
     border: 1px solid #CAD0D2;
     border-radius: 4px;
     overflow: hidden;
   }
   
     .cardGroup__card {
-      /* flex-grow, flex-basis */
+      flex-grow:1;
       border: none;
       border-radius: 0;
+      flex-basis: 33%;
     }
   
     .cardGroup__card {
@@ -57,5 +61,6 @@ html {
     }
   
     .cardGroup__cardDescription {
-      /* flex-grow */
+       flex-grow :1;
+       
     }
